@@ -16,7 +16,7 @@ import org.apache.lucene.codecs.lucene54.Lucene54Codec;
 public class CompressingCodec extends FilterCodec{
 
  public CompressingCodec() {
-    super("Compressing", new Lucene54Codec(Lucene50StoredFieldsFormat.Mode.BEST_COMPRESSION));
+    super("CompressingCodec", new Lucene54Codec(Lucene50StoredFieldsFormat.Mode.BEST_COMPRESSION));
  }
  
  @Override
